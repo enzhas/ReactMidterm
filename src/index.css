@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.posts{
+    margin-left: 30%;
+    text-align:start;
+}
+.post{
+    text-decoration: none;   
+    font-size:larger;
+}

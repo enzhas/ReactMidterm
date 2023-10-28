@@ -12,3 +12,159 @@ body{
     text-decoration: none;   
     font-size:larger;
 }
+
+/* Singlepage.css */
+
+.single-page {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .post {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .edit-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .edit-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the "Like" button */
+  button.like-button {
+    background-color: #28a745;
+  }
+  
+  button.like-button:hover {
+    background-color: #1e7e34;
+  }
+  
+
+/* CSS for BlogFilter component */
+
+.blog-filter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .submit-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Blogpage.css */
+
+.blog {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .posts {
+    margin-top: 20px;
+  }
+  
+  .post {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .post:hover {
+    background-color: #e5e5e5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .new-post-link {
+    margin: 1rem 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .new-post-link:hover {
+    text-decoration: underline;
+  }
+  
